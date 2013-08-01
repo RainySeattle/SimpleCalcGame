@@ -1,0 +1,164 @@
+body
+{
+	background-color:#f0f0ee;
+    font-family: "微软雅黑";
+    font-size: 14px;
+
+}
+
+#container
+{	
+	margin-top: 50px;
+
+}
+
+#panel
+{
+	background:#ffffff;
+	width:800px; 
+	height:500px;
+	margin:0 auto;
+	border-top:#cccccc 1px solid;
+//	border-bottom:#777777 1px solid;
+	border-left: #cccccc 1px solid;
+//	border-right: #777777 1px solid;
+	border-radius: 12px 14px 14px 13px;
+
+	-moz-box-shadow:-2px -2px 2px #999 inset;             /* For Firefox3.6+ */
+	-webkit-box-shadow:-2px -2px 2px #999 inset;          /* For Chrome5+, Safari5+ */
+	box-shadow:-2px -2px 2px #999 inset;                  /* For Latest Opera */
+}
+
+/****************
+*BEGIN统计区域*/
+#StatisticArea
+{
+	margin-top:30px;
+	margin-left:20px;
+	margin-right: 20px;
+}
+
+#StatisticTable
+{
+	width:760px;
+	height:50px;
+}
+
+.TableText
+{
+	font: 20px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+	color: #222;
+	text-shadow: 0px 1px 2px #555;
+	width:95px;
+}
+/*END统计区域
+*****************/
+
+
+/****************
+*BEGIN题目区域*/
+#QuestionArea
+{
+	height: 160px;
+	width:760px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.signs
+{
+	font-size: 110px;
+	text-align: center;
+	color: #cc1100;
+}
+.qdiv
+{
+	float:left;
+	text-align: center;
+	height: 160px;
+}
+#firstimg
+{
+	width:160px;
+}
+#secondimg
+{
+	width: 160px;
+}
+#timessign
+{
+	width: 120px;
+}
+#equalsign
+{
+	width: 120px;
+}
+#qdivinput
+{
+	vertical-align: middle;
+	line-height:160px
+}
+#TextInput
+{
+	height: 110px;
+	width:150px;
+	font-size: 70px;
+	text-align: center;
+/*	color: #cc1100; */
+}
+
+
+/*END题目区域
+*****************/
+
+/*********************
+/*BEGIN评判和按钮区域*/
+#JudgeArea
+{
+	height: 160px;
+	width:760px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+#judge
+{
+	padding-left: 50px;
+
+}
+.judgeinfo
+{
+	float: left;
+}
+#AliImg
+{
+	height: 80px;
+	width: 80px;
+}
+#TextResult
+{
+	padding-left: 20px;
+	font-size: 30px;
+	color: #cc1100;
+	width: 300px;
+	height: 80px;
+	line-height:110px;
+}
+
+#Buttons
+{
+	position: relative;
+	left: 123px;
+}
+#confirmbutton
+{
+	width: 150px;
+	height: 50px;
+}
+#nextbutton
+{
+	margin-top:10px;
+	width: 150px;
+	height: 50px;
+}
+/*END评判和按钮区域
+**********************/

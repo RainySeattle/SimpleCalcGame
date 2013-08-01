@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>小辣椒算术课堂开课啦</title>
+	<meta charset = "UTF-8">
+	<script src="framework/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="control.js"type="text/javascript"></script>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<link href="framework/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+	<div id="container">
+		<div id="panel">
+			<!--BEGIN统计信息区域-->
+			<div id="StatisticArea">
+				<table id="StatisticTable"  class="breadcrumb">
+					<tr>
+						<td class="TableText">总计答题:</td>
+						<td id="textQuestionSum" class="TableText"></td>
+						<td class="TableText">正确答题:</td>
+						<td id="textQuestionRight" class="TableText"></td>
+						<td class="TableText">错误答题:</td>
+						<td id="textQuestionWrong" class="TableText"></td>
+						<td class="TableText">总计得分:</td>
+						<td id="textScore" class="TableText"></td>
+					</tr>
+				</table>
+			</div>
+			<!--END统计信息区域-->
+
+			<!--BEGIN题目区域-->
+			<div id="QuestionArea">
+				<div id="firstimg" class="qdiv"></div>
+				<div id="timessign" class="qdiv"><span class="signs">×</span></div>
+				<div id="secondimg" class="qdiv"></div>
+				<div id="equalsign" class="qdiv"><span class="signs">=</span></div>
+				<div id="qdivinput" class="qdiv"><input type="text" id="TextInput"></input></div>
+			</div>
+			<!--END题目区域-->
+
+			<!--BEGIN评判及按钮-->
+			<div id="JudgeArea">
+				<div id="judge">
+					<div id="AliImg" class="judgeinfo"></div>
+					<div id="TextResult" class="judgeinfo"><span id="result">judge Info</span></div>
+				</div>
+				<div id="Buttons">
+					<div><input type="button" value="确定答题" id="confirmbutton" class="btn btn-danger"></input></div>
+					<div><input type="button" value="下一题" id="nextbutton" class="btn btn-warning"></input></div>
+				</div>
+			</div>
+			<!--END评判及按钮-->
+		</div>
+	</div>
+</body>
+
+</html>
